@@ -23,7 +23,7 @@ export function Home(){
             </Menu>
 
             <Search>
-                <Input placeholder="Pesquisar por nota"/>
+                <Input  placeholder="Pesquisar por nota" icon={FiSearch}/>
             </Search>
 
             <Content>
@@ -37,7 +37,7 @@ export function Home(){
                 </Section>
             </Content>
 
-            <NewNote>
+            <NewNote to="/new">
                 <FiPlus />
                 Criar nota
             </NewNote>
